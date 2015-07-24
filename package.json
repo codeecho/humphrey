@@ -1,0 +1,30 @@
+{
+  "name": "humphrey",
+  "version": "0.1.0",
+  "description": "",
+  "preferGlobal": true,
+  "bin": {
+    "humphrey": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeecho/humphrey.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeecho/humphrey/issues"
+  },
+  "homepage": "https://github.com/codeecho/humphrey#readme",
+  "dependencies": {
+    "async": "^1.3.0",
+    "commander": "^2.8.1",
+    "npm": "^2.12.1",
+    "prompt": "^0.2.14",
+    "request": "^2.58.0",
+    "spawn-npm-install": "^1.1.0"
+  }
+}
